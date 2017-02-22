@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SimpleBlog.Areas.admin.ViewModels.UserIndex">
+    <Position X="4.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Areas\admin\ViewModels\UserIndex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleBlog.Areas.admin.ViewModels.UserNew">
+    <Position X="13.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAQAAAAAAAgAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Areas\admin\ViewModels\UserIndex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleBlog.Areas.admin.ViewModels.RoleCheckBox">
+    <Position X="6.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Areas\admin\ViewModels\UserIndex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleBlog.Areas.admin.ViewModels.UserEdit">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAQAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Areas\admin\ViewModels\UserIndex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleBlog.Areas.admin.ViewModels.UserResetPassword">
+    <Position X="11.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Areas\admin\ViewModels\UserIndex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleBlog.Models.User">
+    <Position X="9" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAIAAACAAAAAAAQAAAAACAgAAAAAAAAAAgIAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="7.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SimpleBlog.Areas.admin.Controllers.UserController">
+    <Position X="0.5" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAABAAAAAAEAAAACAAEAAAAAAAA=</HashCode>
+      <FileName>Areas\admin\Controllers\UserController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title - Sample Blog</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/styles")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="site-header">
+        <header class="container">
+            <h1 class="page-header">
+                <a href="@Url.RouteUrl("Home")">Awesome Stuff!</a>
+                <small>a simple blog powered by ASP.net MVC</small>
+            </h1>
+        </header>
+        
+        
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                @RenderBody()
+            </div>
+
+            <div class="col-lg-4 sidebar">
+                
+                @Html.Action("Sidebar","Layout")
+            </div>
+
+        </div>
+        <footer>
+            &copy; @DateTime.UtcNow.Year
+        </footer>
+    </div>
+    
+    @Scripts.Render("~/scripts")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

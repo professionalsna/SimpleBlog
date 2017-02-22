@@ -1,0 +1,31 @@
+﻿@model SimpleBlog.Areas.admin.ViewModels.viewRoleUsers
+
+@{
+    ViewBag.Title = "ViewRolesUsers";
+}
+
+<h2>@Model.Name: Users</h2>
+
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>EmailAddress</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        @foreach (var user in Model.Users)
+        {
+
+            <tr>
+                <td>@user.Username</td>        
+                <td>@user.Email</td>
+            </tr>
+        }
+        </tbody>
+    
+</table>
+

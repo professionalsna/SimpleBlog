@@ -1,0 +1,16 @@
+﻿@model SimpleBlog.Areas.admin.ViewModels.vmRole
+
+<h2>Edit Role:  @Model.Name</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+
+    <div class="form-group">
+        @Html.LabelFor(r => r.Name)
+        @Html.TextBoxFor(r => r.Name, new {@class = "form-control"})
+    </div>
+    <input type="submit" value="Save" class="btn btn-sm btn-success" >
+    <a href="@Url.Action("index")">or Cancel</a>
+}
